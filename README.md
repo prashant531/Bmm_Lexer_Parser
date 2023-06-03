@@ -36,20 +36,20 @@ Download
     ```
 
 
-# BMM_Scanner.l
+## BMM_Scanner.l
 - Tokenized all the variable names, keywords, special characters and numbers.
 - It will print all the tokens in the terminal in the the orser scanned.
 
-# BMM_Parser.y
+## BMM_Parser.y
 - This program contains the BNF grammar rules for the compiler.
 - If there is any error in syntax it will stop parsing after prompting error message "Syntax Error".
 - If there is no syntax error all the scanning and parsing will be printed in terminal and Success message will be prompted in the end.
 
-# CorrectSample.bmm
+## CorrectSample.bmm
 - Contains correct code free from any kind of syntax errors.
 
-# IncorrectSample.bmm
-- Contains synatx error in line 180 (conatins PRIN instead of PRINT)
+## IncorrectSample.bmm
+- Contains syntax error in line 180 (contains PRIN instead of PRINT)
 
 ## Authors
 - Prashant Singh (@prashant531)
