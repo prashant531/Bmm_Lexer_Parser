@@ -1,11 +1,25 @@
-# Team Members
-- Aditya Dinesh Patil 2021CSB1062
-- Prashant Singh 2021CSB1124
+# Bmm_Lexer_Parser
 
-# BMM_Scanner.l
-# BMM_Parser.y
-# CorrectSample.bmm
-# IncorrectSample.bmm
+## Summary
+This project aims to build a compiler for a simple programming language called B--. It utilizes Flex and Bison to create a lexical analyzer and syntax analyzer capable of recognizing B-- source code. The compiler provides helpful error messages for identifying syntax errors in B-- sample code.
+
+## File Structure
+```
+.
+├── README.md
+├── bmm_parser.y
+├── bmm_scanner.l
+├── correct_sample.bmm
+├── incorrect_sample.bmm
+```
+
+## Prerequisites
+
+Download
+
+- [Bison](https://www.gnu.org/software/bison/)
+- [Flex](https://github.com/westes/flex)
+- [Make](https://www.gnu.org/software/software.html)
 
 ## Assumptions
 - \n is not considered as a space but as a character
@@ -36,3 +50,7 @@
 
 # IncorrectSample.bmm
 - Contains synatx error in line 180 (conatins PRIN instead of PRINT)
+
+## Authors
+- Prashant Singh (@prashant531)
+- Aditya Patil (@Nerditya)
